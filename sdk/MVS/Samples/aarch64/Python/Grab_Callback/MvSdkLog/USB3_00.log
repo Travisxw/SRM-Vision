@@ -1,0 +1,8 @@
+Info    2019-07-01 15:07:57  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvUsb3vTL.so(Manager.cpp-L0096)     Description:Current dynamic library path[/opt/MVS/lib/aarch64/libMvUsb3vTL.so]     Solution:
+Error   2019-07-01 15:07:57  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0353)     Description:device speed: [3]     Solution:
+Info    2019-07-01 15:07:58  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L0958)     Description:U3V RecvThread Start     Solution:
+Info    2019-07-01 15:07:58  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvUsb3vTL.so(DeviceControl.cpp-L1242)     Description:AcquisitionStart Execute Success     Solution:
+Warning 2019-07-01 15:08:14  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1047)     Description:Get an abnormal image !     Solution:
+Info    2019-07-01 15:08:14  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvUsb3vTL.so(DeviceControl.cpp-L1282)     Description:AcquisitionStop Execute Success     Solution:
+Info    2019-07-01 15:08:15  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1095)     Description:RecvThread process exit     Solution:
+Info    2019-07-01 15:08:15  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L0511)     Description:getfcnt [79], getfcntsucceed[79], totalRecv[79]     Solution:

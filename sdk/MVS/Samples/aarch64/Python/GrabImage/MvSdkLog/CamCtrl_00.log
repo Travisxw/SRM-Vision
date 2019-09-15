@@ -1,0 +1,16 @@
+Info    2019-07-01 12:23:38  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L0810)     Description:Current dynamic library path[/opt/MVS/lib/aarch64/libMvCameraControl.so]     Solution:
+Info    2019-07-01 12:23:38  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L0814)     Description:[MV_CC_CreateHandle] return[0x0]     Solution:
+Info    2019-07-01 12:23:38  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L5906)     Description:CamCtrl[0x3000006], U3V SDKVersion[0x3000006], DriverVersion[0x0]     Solution:
+Info    2019-07-01 12:23:39  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L3992)     Description:[MV_CC_InvalidateNodes] return[0x0]     Solution:
+Info    2019-07-01 12:23:39  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1088)     Description:[MV_CC_OpenDevice] nPrivilegeMode[1], nSwitchoverKey[0], return[0x0]     Solution:
+Info    2019-07-01 12:23:39  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1623)     Description:U3V, DeviceModelName[MV-CA016-10UC], DeviceFirmwareVersion[V1.4.8 181031,18053001], DeviceMaxThroughput[47185920]     Solution:
+Info    2019-07-01 12:23:39  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1628)     Description:U3V, Width[1440], Height[1080], OffsetX[0], OffsetY[0], PixelFormat[0x2180014], AcquisitionMode[2]     Solution:
+Info    2019-07-01 12:23:39  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1633)     Description:U3V, TriggerMode[0], ResultingFrameRate[10.11], ExposureTime[10000.00], ExposureAuto[0], PayloadSize[4665600]     Solution:
+Info    2019-07-01 12:23:39  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L5564)     Description:CamCtrl RecvThread Start, ThreadId[-1977896448]     Solution:
+Info    2019-07-01 12:23:39  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1712)     Description:There is no registration callback     Solution:
+Info    2019-07-01 12:23:39  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L5390)     Description:CamCtrl Display Thread Start, ThreadId[-1986285056]     Solution:
+Info    2019-07-01 12:23:39  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1717)     Description:[MV_CC_StartGrabbing] return[0x0]     Solution:
+Info    2019-07-01 12:23:42  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1801)     Description:[StopGrabbing] return[0x0]     Solution:
+Info    2019-07-01 12:23:42  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L5739)     Description:RecvThread Process Exit     Solution:
+Info    2019-07-01 12:23:42  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L5547)     Description:Display process exit     Solution:
+Info    2019-07-01 12:23:43  DevID:MV-CA016-10UC(00D27551311)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1169)     Description:[CloseDevice] return[0x0]     Solution:
