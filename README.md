@@ -1,19 +1,29 @@
 # readme file by xueaoru
 
-> xueaoru 
-
-> 新人往下看看git版本管理工具基本命令
+by xueaoru 
+新人往下看看git版本管理工具基本命令
 
 ## 文件结构
 main.py 入口文件
+
 detect.py 识别灯条和装甲板
+
 make_feature_map.py 基于PCA的特征提取，用于数字分类。快就完事了。
+
 config.py 配置管理文件
+
 config.cfg 配置文件
+
 cap_manager.py 相机管理文件，用来获取每帧图片，bayer bg8 格式 + 3000曝光时间 = 1 ~ 3 ms 每张图片 
+
 utils/serial.py 串口通信文件
+
 graph.pb tensorflow 三分类model，mobile-net V3 的改进版，没有结构图，此电脑上没有网络结构代码
+
 MvImport/* 相机头文件
+
+filters.py定义了卡尔曼滤波类，调用opencv的一些函数实现
+
 
 
 ## nn思路
@@ -26,28 +36,38 @@ MvImport/* 相机头文件
 
 ## 其他
 cap_manager.py 实现了图像获取和根据配置进行录像，这个是很必要的，录下实际比赛的时候的视频对我们学习很有帮助。
+
 config.py 实现了配置自动保存自动加载等功能，这样不需要每次都调参，减少复杂度。
+
 用了tensorrt加速计算，大概能省10ms的时间。
+
 tensorflow 必须用1.8版本的，太低没有集成tensorrt，1.9有bug，1.10以上版本太高用不了。
 
 
 ## 将要做
 装甲板测距 STATE：TODO 相机标定，pnp算法，得到旋转矩阵，得到pitch,yaw
+
 位置预测   STATE：DONE 分为旋转模式和普通模式，旋转模式下往运动方向上加补偿。
-号码识别   STATE：DONE 基于矩阵论的知识，对装甲板矩阵拉平，所有图片组成特征矩阵然后均值化，PCA后得到特征阵，新样本先均值化，然后乘以降唯矩阵得到feature向量，对比每个训练集合feature和测试及feature欧式距离阈值下进行判别。
+
+号码识别   STATE：DONE 基于矩阵论的知识，对装甲板矩阵拉平，所有图片组成特征矩阵然后均值化，PCA后得到特征阵，新样本先均值化，然后乘以降唯矩阵得到
+feature向量，对比每个训练集合feature和测试及feature欧式距离阈值下进行判别。
+
 
 ## 时间统计
-相机获取图片 1~3ms
+相机获取图片 1~2ms
+
 所有图像处理时间 roi 4ms
+
 无roi 8ms
 
 ## git版本管理工具的使用
-> git init 初始化
-> git add  添加文件
-> git commit -m '' 提交修改
-> git log 历史记录
-> git reset --hard xx 回退版本
-> git reflog 操作记录,回到未来
+以下代码在实验室的tx2下使用，如果要提交代码到本项目，则需要push给我，这里大家自己学以下怎么提交代码吧。
+ git init 初始化
+ git add  添加文件
+ git commit -m '' 提交修改
+ git log 历史记录
+ git reset --hard xx 回退版本
+ git reflog 操作记录,回到未来
 
 
 新朋友请不要随便版本回退，修改完记得git commit，像rm这种命令还是不知道的好。commit的信息记得填上自己的名字！
